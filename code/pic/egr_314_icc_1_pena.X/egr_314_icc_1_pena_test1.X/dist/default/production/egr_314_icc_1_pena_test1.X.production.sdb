@@ -1,0 +1,279 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47Q10 ]
+[d frameptr 4065 ]
+"4 /opt/microchip/xc8/v2.45/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.45/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.45/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.45/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.45/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.45/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 /opt/microchip/xc8/v2.45/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.45/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 /opt/microchip/xc8/v2.45/pic/sources/c99/common/strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"5 /opt/microchip/xc8/v2.45/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.45/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"76 /home/coloms/Documents/asu/term_6/egr_314/mplab_files/egr_314_icc_1_pena.X/egr_314_icc_1_pena_test1.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"66 /home/coloms/Documents/asu/term_6/egr_314/mplab_files/egr_314_icc_1_pena.X/egr_314_icc_1_pena_test1.X/mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+"141
+[v _getch getch `(i  1 e 2 0 ]
+"153
+[v _EUSART2_DefaultFramingErrorHandler EUSART2_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART2_DefaultOverrunErrorHandler EUSART2_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART2_DefaultErrorHandler EUSART2_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART2_SetFramingErrorHandler EUSART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART2_SetOverrunErrorHandler EUSART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART2_SetErrorHandler EUSART2_SetErrorHandler `(v  1 e 1 0 ]
+"58 /home/coloms/Documents/asu/term_6/egr_314/mplab_files/egr_314_icc_1_pena.X/egr_314_icc_1_pena_test1.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 /home/coloms/Documents/asu/term_6/egr_314/mplab_files/egr_314_icc_1_pena.X/egr_314_icc_1_pena_test1.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"9890 /opt/microchip/mplabx/v6.15/packs/Microchip/PIC18F-Q_DFP/1.20.405/xc8/pic/include/proc/pic18f47q10.h
+[v _RX2PPS RX2PPS `VEuc  1 e 1 @3720 ]
+"11443
+[v _RC2REG RC2REG `VEuc  1 e 1 @3732 ]
+"11481
+[v _TX2REG TX2REG `VEuc  1 e 1 @3733 ]
+"11526
+[v _SP2BRGL SP2BRGL `VEuc  1 e 1 @3734 ]
+"11564
+[v _SP2BRGH SP2BRGH `VEuc  1 e 1 @3735 ]
+"11602
+[v _RC2STA RC2STA `VEuc  1 e 1 @3736 ]
+[s S164 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"11624
+[u S173 . 1 `S164 1 . 1 0 ]
+[v _RC2STAbits RC2STAbits `VES173  1 e 1 @3736 ]
+"11724
+[v _TX2STA TX2STA `VEuc  1 e 1 @3737 ]
+[s S143 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"11746
+[u S152 . 1 `S143 1 . 1 0 ]
+[v _TX2STAbits TX2STAbits `VES152  1 e 1 @3737 ]
+"11846
+[v _BAUD2CON BAUD2CON `VEuc  1 e 1 @3738 ]
+[s S109 . 1 `uc 1 SSPIF 1 0 :1:0 
+`uc 1 BCLIF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"15779
+[s S118 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S124 . 1 `S109 1 . 1 0 `S118 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES124  1 e 1 @3784 ]
+"16627
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"16767
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"16919
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"16970
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"17028
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"17199
+[v _PMD0 PMD0 `VEuc  1 e 1 @3804 ]
+"17276
+[v _PMD1 PMD1 `VEuc  1 e 1 @3805 ]
+"17340
+[v _PMD2 PMD2 `VEuc  1 e 1 @3806 ]
+"17385
+[v _PMD3 PMD3 `VEuc  1 e 1 @3807 ]
+"17447
+[v _PMD4 PMD4 `VEuc  1 e 1 @3808 ]
+"17500
+[v _PMD5 PMD5 `VEuc  1 e 1 @3809 ]
+"18601
+[v _RD0PPS RD0PPS `VEuc  1 e 1 @3834 ]
+"19271
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"19333
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"19395
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"19457
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"19519
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"19767
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"19829
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"19891
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"19953
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"20015
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"20263
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"20325
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"20387
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"20449
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"20511
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"20573
+[v _INLVLD INLVLD `VEuc  1 e 1 @3869 ]
+"20635
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3870 ]
+"20697
+[v _ODCOND ODCOND `VEuc  1 e 1 @3871 ]
+"20759
+[v _WPUD WPUD `VEuc  1 e 1 @3872 ]
+"20821
+[v _ANSELD ANSELD `VEuc  1 e 1 @3873 ]
+"20946
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"20984
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3878 ]
+"21016
+[v _ODCONE ODCONE `VEuc  1 e 1 @3879 ]
+"21048
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"21086
+[v _ANSELE ANSELE `VEuc  1 e 1 @3881 ]
+"27490
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+"27552
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+"27614
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+"27676
+[v _LATD LATD `VEuc  1 e 1 @3973 ]
+"27738
+[v _LATE LATE `VEuc  1 e 1 @3974 ]
+[s S282 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"27750
+[u S286 . 1 `S282 1 . 1 0 ]
+[v _LATEbits LATEbits `VES286  1 e 1 @3974 ]
+"27770
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"27892
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"28014
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28136
+[v _TRISD TRISD `VEuc  1 e 1 @3978 ]
+"28258
+[v _TRISE TRISE `VEuc  1 e 1 @3979 ]
+[s S63 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 /home/coloms/Documents/asu/term_6/egr_314/mplab_files/egr_314_icc_1_pena.X/egr_314_icc_1_pena_test1.X/mcc_generated_files/eusart2.c
+[u S68 . 1 `S63 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart2RxLastError eusart2RxLastError `VES68  1 e 1 0 ]
+"58
+[v _EUSART2_FramingErrorHandler EUSART2_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _EUSART2_OverrunErrorHandler EUSART2_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _EUSART2_ErrorHandler EUSART2_ErrorHandler `*.38(v  1 e 3 0 ]
+"76 /home/coloms/Documents/asu/term_6/egr_314/mplab_files/egr_314_icc_1_pena.X/egr_314_icc_1_pena_test1.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"99
+[v main@i i `uc  1 a 1 22 ]
+"78
+[v main@command command `[10]uc  1 a 10 5 ]
+"81
+[v main@msg msg `[7]uc  1 a 7 15 ]
+"79
+[v main@index index `uc  1 a 1 24 ]
+"80
+[v main@c c `uc  1 a 1 23 ]
+[v main@F13439 F13439 `[7]uc  1 s 7 F13439 ]
+"105
+} 0
+"5 /opt/microchip/xc8/v2.45/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.30Cuc  1 a 1 2 ]
+"5
+[v strlen@s s `*.30Cuc  1 p 1 0 ]
+"12
+} 0
+"141 /home/coloms/Documents/asu/term_6/egr_314/mplab_files/egr_314_icc_1_pena.X/egr_314_icc_1_pena_test1.X/mcc_generated_files/eusart2.c
+[v _getch getch `(i  1 e 2 0 ]
+{
+"144
+} 0
+"113
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+{
+"130
+} 0
+"132
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0

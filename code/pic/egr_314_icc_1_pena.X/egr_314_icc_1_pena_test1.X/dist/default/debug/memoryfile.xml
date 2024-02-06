@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug/egr_314_icc_1_pena_test1.X.debug.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>131072</length>
+      <used>429</used>
+      <free>130643</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>3359</length>
+      <used>42</used>
+      <free>3317</free>
+    </memory>
+  </executable>
+</project>
